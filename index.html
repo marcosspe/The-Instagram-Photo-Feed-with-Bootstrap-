@@ -14,7 +14,7 @@
 <body>
     <!-- Nav -->
     <nav class="navbar navbar-light bg-light navflex">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="">
             <i class="bi bi-instagram"></i>Instagram
         </a>
         <div class="botonesnav">
@@ -41,13 +41,13 @@
                     </div>
                 </div>
             </div>
-            <!-- tuerca -->
+            <!-- dropdown -->
             <div class="dropdown">
                 <button class="dropdown-toggle btn btn-light" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="bi bi-gear-fill"></i>
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <a class="dropdown-item" href="#">Something else here</a>
@@ -55,170 +55,179 @@
             </div>
         </div>
     </nav>
+
     <!-- vistas -->
+    <div class="accordion" id="accordionExample">
+        <div class="container d-flex justify-content-center">
+            <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <i class="bi bi-grid-3x3-gap-fill"></i>
+            </button>
+            <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                <i class="bi bi-square-fill"></i>
+            </button>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+            <!-- grid1 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="https://www.hola.com/imagenes/estar-bien/20190426140762/perro-huevo-pompom-gt/0-669-982/portada-pompom-t.jpg?filter=w600&filter=ds75"
+                            alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/10E9B/production/_109757296_gettyimages-1128004359.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://www.animalsaroundtheglobe.com/wp-content/uploads/2019/12/tobias-adam-Twm64rH8wdc-unsplash-1-1024x685.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- grid2 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="https://spoiler.bolavip.com/__export/1603893712284/sites/bolavip/img/2020/10/28/harry-potter-4k-australia-1832x1280_crop1603893635725.jpg_1050392514.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://4.bp.blogspot.com/-6ArnxT5rEGI/XDYje8vU-UI/AAAAAAAAAl0/QdAnzDtt5YQk_TMKcKgaQPXSBaSG-l1OwCEwYBhgL/s1600/Dobby.jpg0"
+                            alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://www.noblecollection.com/ItemImages/Large/WAR%20HP%208965.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- grid3 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="https://imagenes.20minutos.es/files/article_amp/uploads/2012/08/22/d9ade6e_buscando_a_nemo.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://cdn.elnacional.com/wp-content/uploads/2020/03/Pixar-Nemo-Foto-Archivo.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://e.radio-studio92.io/normal/2019/08/23/281928_832109.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
 
-    <div class="container d-flex justify-content-center">
-        <a class="btn btn-secondary" data-toggle="collapse" href="#grid" role="button"
-            aria-expanded="false" aria-controls="collapseExample">
-            <i class="bi bi-grid-3x3-gap-fill"></i>
-        </a>
-        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample"
-            aria-expanded="false" aria-controls="collapseExample">
-            <i class="bi bi-square-fill">
-        </button>
+                <!-- feed -->
+                <div class="feed">
+                    <div class="cuadro1 rounded mt-n3">
+                        <div class="linea1">
+                            <p id="tit"><strong>My first photo</strong></p>
+                            <p id="num">12/14</p>
+                        </div>
+                        <img
+                            src="https://www.hola.com/imagenes/estar-bien/20190426140762/perro-huevo-pompom-gt/0-669-982/portada-pompom-t.jpg?filter=w600&filter=ds75" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">
+                            This is my first photo of the feed, this is a multi line comment for testing purposes. I
+                            am learning to
+                            code with
+                            <strong>#BreatheCode</strong>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                    <div class="cuadro2 rounded">
+                        <p id="tit"><strong>My photo</strong></p>
+                        <p id="num">12/17</p>
+                        <img
+                            src="https://ichef.bbci.co.uk/news/640/cpsprodpb/10E9B/production/_109757296_gettyimages-1128004359.jpg" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">The internet approves this cute dog... <strong>#BreatheCode</strong></p>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                    <div class="cuadro3 rounded">
+                        <p id="tit"><strong>My photo</strong></p>
+                        <p id="num">12/17</p>
+                        <img
+                            src="https://www.animalsaroundtheglobe.com/wp-content/uploads/2019/12/tobias-adam-Twm64rH8wdc-unsplash-1-1024x685.jpg" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">Because no photo feed is cool without some food on it!
+                            <strong>#BreatheCode</strong></p>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                    <div class="cuadro4 rounded">
+                        <p id="tit"><strong>My photo</strong></p>
+                        <p id="num">12/17</p>
+                        <img
+                            src="https://spoiler.bolavip.com/__export/1603893712284/sites/bolavip/img/2020/10/28/harry-potter-4k-australia-1832x1280_crop1603893635725.jpg_1050392514.jpg" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">Because no photo feed is cool without some food on it!
+                            <strong>#BreatheCode</strong></p>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                    <div class="cuadro5 rounded">
+                        <p id="tit"><strong>My photo</strong></p>
+                        <p id="num">12/17</p>
+                        <img
+                            src="https://4.bp.blogspot.com/-6ArnxT5rEGI/XDYje8vU-UI/AAAAAAAAAl0/QdAnzDtt5YQk_TMKcKgaQPXSBaSG-l1OwCEwYBhgL/s1600/Dobby.jpg0" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">Because no photo feed is cool without some food on it!
+                            <strong>#BreatheCode</strong></p>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                    <div class="cuadro6 rounded">
+                        <p id="tit"><strong>My photo</strong></p>
+                        <p id="num">12/17</p>
+                        <img src="https://www.noblecollection.com/ItemImages/Large/WAR%20HP%208965.jpg" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">Because no photo feed is cool without some food on it!
+                            <strong>#BreatheCode</strong></p>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                    <div class="cuadro7 rounded">
+                        <p id="tit"><strong>My photo</strong></p>
+                        <p id="num">12/17</p>
+                        <img
+                            src="https://imagenes.20minutos.es/files/article_amp/uploads/2012/08/22/d9ade6e_buscando_a_nemo.jpg" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">Because no photo feed is cool without some food on it!
+                            <strong>#BreatheCode</strong></p>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                    <div class="cuadro8 rounded">
+                        <p id="tit"><strong>My photo</strong></p>
+                        <p id="num">12/17</p>
+                        <img src="https://cdn.elnacional.com/wp-content/uploads/2020/03/Pixar-Nemo-Foto-Archivo.jpg" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">Because no photo feed is cool without some food on it!
+                            <strong>#BreatheCode</strong></p>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                    <div class="cuadro9 rounded">
+                        <p id="tit"><strong>My photo</strong></p>
+                        <p id="num">12/17</p>
+                        <img src="https://e.radio-studio92.io/normal/2019/08/23/281928_832109.jpg" />
+                        <h2><strong>25 likes</strong></h2>
+                        <p id="desc">Because no photo feed is cool without some food on it!
+                            <strong>#BreatheCode</strong></p>
+                        <p id="com"><i class="bi bi-heart"></i> Comment...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
-    <div class="collapse" id="collapseExample">
-
-        <!-- feed -->
-        <div class="feed">
-            <div class="cuadro1">
-                <div class="linea1">
-                    <p id="tit"><strong>My first photo</strong></p>
-                    <p id="num">12/14</p>
-                </div>
-                <img
-                    src="https://www.hola.com/imagenes/estar-bien/20190426140762/perro-huevo-pompom-gt/0-669-982/portada-pompom-t.jpg?filter=w600&filter=ds75" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">
-                    This is my first photo of the feed, this is a multi line comment for testing purposes. I
-                    am learning to
-                    code with
-                    <strong>#BreatheCode</strong>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-            <div class="cuadro2">
-                <p id="tit"><strong>My photo</strong></p>
-                <p id="num">12/17</p>
-                <img
-                    src="https://ichef.bbci.co.uk/news/640/cpsprodpb/10E9B/production/_109757296_gettyimages-1128004359.jpg" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">The internet approves this cute dog... <strong>#BreatheCode</strong></p>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-            <div class="cuadro3">
-                <p id="tit"><strong>My photo</strong></p>
-                <p id="num">12/17</p>
-                <img
-                    src="https://www.animalsaroundtheglobe.com/wp-content/uploads/2019/12/tobias-adam-Twm64rH8wdc-unsplash-1-1024x685.jpg" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">Because no photo feed is cool without some food on it!
-                    <strong>#BreatheCode</strong></p>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-            <div class="cuadro4">
-                <p id="tit"><strong>My photo</strong></p>
-                <p id="num">12/17</p>
-                <img
-                    src="https://spoiler.bolavip.com/__export/1603893712284/sites/bolavip/img/2020/10/28/harry-potter-4k-australia-1832x1280_crop1603893635725.jpg_1050392514.jpg" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">Because no photo feed is cool without some food on it!
-                    <strong>#BreatheCode</strong></p>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-            <div class="cuadro5">
-                <p id="tit"><strong>My photo</strong></p>
-                <p id="num">12/17</p>
-                <img
-                    src="https://4.bp.blogspot.com/-6ArnxT5rEGI/XDYje8vU-UI/AAAAAAAAAl0/QdAnzDtt5YQk_TMKcKgaQPXSBaSG-l1OwCEwYBhgL/s1600/Dobby.jpg0" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">Because no photo feed is cool without some food on it!
-                    <strong>#BreatheCode</strong></p>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-            <div class="cuadro6">
-                <p id="tit"><strong>My photo</strong></p>
-                <p id="num">12/17</p>
-                <img src="https://www.noblecollection.com/ItemImages/Large/WAR%20HP%208965.jpg" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">Because no photo feed is cool without some food on it!
-                    <strong>#BreatheCode</strong></p>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-            <div class="cuadro7">
-                <p id="tit"><strong>My photo</strong></p>
-                <p id="num">12/17</p>
-                <img
-                    src="https://imagenes.20minutos.es/files/article_amp/uploads/2012/08/22/d9ade6e_buscando_a_nemo.jpg" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">Because no photo feed is cool without some food on it!
-                    <strong>#BreatheCode</strong></p>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-            <div class="cuadro8">
-                <p id="tit"><strong>My photo</strong></p>
-                <p id="num">12/17</p>
-                <img src="https://cdn.elnacional.com/wp-content/uploads/2020/03/Pixar-Nemo-Foto-Archivo.jpg" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">Because no photo feed is cool without some food on it!
-                    <strong>#BreatheCode</strong></p>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-            <div class="cuadro9">
-                <p id="tit"><strong>My photo</strong></p>
-                <p id="num">12/17</p>
-                <img src="https://e.radio-studio92.io/normal/2019/08/23/281928_832109.jpg" />
-                <h2><strong>25 likes</strong></h2>
-                <p id="desc">Because no photo feed is cool without some food on it!
-                    <strong>#BreatheCode</strong></p>
-                <p id="com"><i class="far fa-heart"></i> Comment...</p>
-            </div>
-        </div>
-
-    </div>
 
 
-    <!-- grid1 -->
-    <div id="grid">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <img src="https://www.hola.com/imagenes/estar-bien/20190426140762/perro-huevo-pompom-gt/0-669-982/portada-pompom-t.jpg?filter=w600&filter=ds75"
-                        alt="">
-                </div>
-                <div class="col-sm">
-                    <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/10E9B/production/_109757296_gettyimages-1128004359.jpg"
-                        alt="">
-                </div>
-                <div class="col-sm">
-                    <img src="https://www.animalsaroundtheglobe.com/wp-content/uploads/2019/12/tobias-adam-Twm64rH8wdc-unsplash-1-1024x685.jpg"
-                        alt="">
-                </div>
-            </div>
-        </div>
-        <!-- grid2 -->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <img src="https://spoiler.bolavip.com/__export/1603893712284/sites/bolavip/img/2020/10/28/harry-potter-4k-australia-1832x1280_crop1603893635725.jpg_1050392514.jpg"
-                        alt="">
-                </div>
-                <div class="col-sm">
-                    <img src="https://4.bp.blogspot.com/-6ArnxT5rEGI/XDYje8vU-UI/AAAAAAAAAl0/QdAnzDtt5YQk_TMKcKgaQPXSBaSG-l1OwCEwYBhgL/s1600/Dobby.jpg0"
-                        alt="">
-                </div>
-                <div class="col-sm">
-                    <img src="https://www.noblecollection.com/ItemImages/Large/WAR%20HP%208965.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- grid3 -->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <img src="https://imagenes.20minutos.es/files/article_amp/uploads/2012/08/22/d9ade6e_buscando_a_nemo.jpg"
-                        alt="">
-                </div>
-                <div class="col-sm">
-                    <img src="https://cdn.elnacional.com/wp-content/uploads/2020/03/Pixar-Nemo-Foto-Archivo.jpg" alt="">
-                </div>
-                <div class="col-sm">
-                    <img src="https://e.radio-studio92.io/normal/2019/08/23/281928_832109.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+
+
+
 
 
 
